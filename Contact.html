@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: gray;
+    }
+
+    select {
+        width: 7%;
+    }
+
+    div {
+        background-color: whitesmoke;
+    }
+    .contact1{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .contact{
+        padding-left: 20px;
+    }
+</style>
+
+<body>
+    <hr>
+    <div class="div">
+        <a href="./index.html">Home</a>
+        <a href="./Education.html">Education</a>
+        <a href="./WorkExperience.html">Work Experience</a>
+        <a href="./Contact.html">Contact</a>
+    </div>
+    <hr>
+    <h1>Contact <img src="./pics/contact pic.svg" alt="" width="35"></h1>
+    <div class="contact1">
+        <div class="contact">
+
+            <p>Enter your info..</p>
+            <p>Your name</p>
+            <label for="input1"></label>
+            <input type="text" id="input1">
+            
+            <p>Your E-mail</p>
+            <label for="input2"></label>
+            <input type="text" id="input2">
+            
+            <p>Gender</p>
+            <label for="gender"></label>
+            <select>
+                <option value="select">select</option>
+                <option value="select">male</option>
+                <option value="select">female</option>
+                <option value="select">other</option>
+            </select>
+            
+            <p>Messege</p>
+            <div>
+                <label for="Messege" class=""></label>
+                <textarea id="Messege" name="" rows="25" cols="40"></textarea>
+            </div>
+            <p></p>
+            <button type="submit">submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    </div>
+</body>
+
+</html>
